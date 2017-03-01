@@ -1,5 +1,10 @@
 .duck {
   display: block;
-  width: 120px;
+  width: 240px;
   margin: 1.5rem auto;
+	transition: all 0.2s;
+
+	&:hover {
+		transform: scale(1.2);
+	}
 }
